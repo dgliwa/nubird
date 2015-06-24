@@ -1,0 +1,5 @@
+
+= form_for :tweet, url: tweets_path do |f|
+  = f.label :title, 'New tweet'
+  = f.text_field :new_tweet
+  = f.submit 'Submit'   

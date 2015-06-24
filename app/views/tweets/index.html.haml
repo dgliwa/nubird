@@ -1,0 +1,9 @@
+%h1 Tweets
+
+= link_to new_tweet_path() do 
+  %button
+    Submit new tweet
+
+%ul
+  - @timeline.each do |x|
+    %li= link_to x.text, tweet_path(x.id) 
