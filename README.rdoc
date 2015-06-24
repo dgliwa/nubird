@@ -1,8 +1,13 @@
 == NuBird
 
+## Set up
+Obtain Twitter API key and Secret key by creating an application at https://dev.twitter.com/ then create a .env file in the root directory and add the following fields:
+* TWITTER_API_KEY = YOUR_API_KEY
+* TWITTER_API_SECRET = YOUR_SECRET_KEY
+
+## Run
 * bundle install
 * rake db:migrate
-
 * rails s
 
 Tweet away! 
